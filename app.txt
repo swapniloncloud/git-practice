@@ -7,3 +7,6 @@ initial file
 6th line : GITHUB
 by master : GITHUB
 code code : GITHUB
+feature 2 by local 
+feature 2.1 by GITHUB
+feature 2.2 by GITHUB
