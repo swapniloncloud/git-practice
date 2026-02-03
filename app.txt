@@ -6,3 +6,4 @@ initial file
 5th on master: GITHUB
 6th line : GITHUB
 feature 2 by local 
+feature 2.1 by GITHUB
