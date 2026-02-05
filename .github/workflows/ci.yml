@@ -19,7 +19,7 @@ jobs:
 
       - name: Check README exists
         run: |
-          if [ -e README.md ]; then
+          if [ ! -e README.md ]; then
            echo "REAME.md is missing"
            exit 1
           fi
