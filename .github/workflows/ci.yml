@@ -17,3 +17,9 @@ jobs:
       - name: Run a basic check
         run: echo "CI is running successfully"
 
+      - name: Check README exists
+        run: |
+          if [ -e README.md ]; then
+           echo "REAME.md is missing"
+           exit 1
+          fi
